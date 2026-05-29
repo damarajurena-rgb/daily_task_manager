@@ -1,52 +1,84 @@
- 📚 Study Dashboard – Planner + Timer + AI Assistant
+# 🗓️ Daily Task Manager
 
-🧠 About the Project
-This project was born out of a real exam challenge.  
-As a B.Tech student preparing for exams, I found that most planner apps couldn’t manage timers or track classes effectively.  
-I couldn’t sit through 3–4 hours of YouTube lectures without knowing how much time I’d spent, and while apps like NotebookLM summarize documents, they don’t manage study sessions.
-
-So I decided to design a **study dashboard** that brings all essential features together in one place.
+A modern, responsive **daily planner and productivity assistant** built with **TypeScript** and **Vite**.  
+It helps users organize tasks, manage time efficiently, and stay focused throughout the day.
 
 ---
 
- 🚀 Features
-- ✅ **Planner** – Organize tasks and study sessions efficiently  
-- ⏱️ **Floating Timer** – Track time while watching YouTube lectures  
-- 🎵 **Music Cues** – Stay focused with background study tunes  
-- 📺 **YouTube + Notes Section** – Learn and take notes side by side  
-- 🤖 **AI Assistant** – Summarizes and explains topics in examiner‑ready format  
-
-
-💡 Motivation
-This project started as a way to prepare smarter for my exams.  
-It’s also helping me learn how to combine productivity tools with AI — turning everyday study struggles into a creative solution.
+## 🚀 Features
+- ✅ **Task Management** – Add, edit, and delete daily tasks easily.  
+- ⏱️ **Timer Integration** – Track focus sessions and breaks.  
+- 💬 **Floating Assistant** – Smart helper for quick tips and reminders.  
+- 🌙 **Theme Support** – Light and dark modes for better usability.  
+- 📊 **Progress Overview** – Visual indicators for completed tasks.  
 
 ---
 
- 🛠️ Tech Stack
-- HTML  
-- CSS  
-- JavaScript (basic integration)  
-- Replit (development environment)  
-- GitHub Pages (for deployment)
+## 🧠 Tech Stack
+| Category | Technology |
+|-----------|-------------|
+| Frontend | TypeScript, React (via Vite) |
+| Styling | CSS / Tailwind (if used) |
+| Build Tool | Vite |
+| Assets | SVG, PNG, JPG (from `public/`) |
 
+---
 
-🔧 Future Improvements
-- Add file upload support (PDF, DOCX, images) for automatic summarization  
-- Enhance AI explanations with diagrams and structured outputs  
-- Improve UI responsiveness and theme customization  
+## 📂 Project Structure
+daily_task_manager/
+├── index.html
+├── package.json
+├── tsconfig.json
+├── vite.config.ts
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── utils/
+│   └── App.tsx
+└── public/
+├── favicon.svg
+├── robot.png
+└── robots.txt
 
+Code
 
- 📦 Deployment
-Currently under adjustment — will be deployed soon via "GitHub Pages".  
-Stay tuned for the live link!
+---
 
+## ⚙️ Installation & Setup
+```bash
+# Clone the repository
+git clone https://github.com/damarajurena-rgb/daily_task_manager.git
 
-👤 Author
-Damara Jurena   
-B.Tech Student, CMR Institute of Technology, Kandlakoya  
-Exploring AI‑assisted learning and productivity tools for students.
+# Navigate to the project folder
+cd daily_task_manager
 
+# Install dependencies
+npm install
 
-🖋️ Acknowledgment
-Built with the help of "**Microsoft Copilot**", combining creativity and AI assistance to design a smarter study experience.
+# Run the development server
+npm run dev
+
+Then open your browser and visit:
+
+Code
+http://localhost:5173
+🌐 Live Demo
+🔗 https://damarajurena-rgb.github.io/daily_task_manager/
+
+🔮 Future Enhancements
+Add user authentication for personalized task lists.
+
+Integrate cloud storage for syncing tasks across devices.
+
+Include analytics for productivity tracking.
+
+Add drag‑and‑drop task reordering.
+
+🧾 License
+This project is open‑source under the MIT License.
+Feel free to use, modify, and share with proper attribution.
+
+✨ Author
+Damara Jurena  
+B.Tech Student, CMRIT Kandlakoya
+Focused on building clean, examiner‑ready academic and freelance projects.
